@@ -1,5 +1,25 @@
 # @primer/css
 
+## 17.4.0
+
+### Minor Changes
+
+- [#1487](https://github.com/primer/css/pull/1487) [`0298b69b`](https://github.com/primer/css/commit/0298b69bda4c25ed252fbeb6ba2e3fcf4ff096d2) Thanks [@arzg](https://github.com/arzg)! - Move Menlo before Consolas in monospace font stack
+
+### Patch Changes
+
+- [#1483](https://github.com/primer/css/pull/1483) [`84488397`](https://github.com/primer/css/commit/84488397f4a7bce115e2c81b388de959fff20296) Thanks [@jonrohan](https://github.com/jonrohan)! - Make sure truncate is a direct child
+
+* [#1486](https://github.com/primer/css/pull/1486) [`f52d40cc`](https://github.com/primer/css/commit/f52d40cce57bca5a713d0b9d1136f144577cf66d) Thanks [@manuelpuyol](https://github.com/manuelpuyol)! - Prevents main content to blowout and cause an horizontal scroll
+
+- [#1488](https://github.com/primer/css/pull/1488) [`c345bd38`](https://github.com/primer/css/commit/c345bd3819cf8d42552409baf3ec4ccb59c50107) Thanks [@cheshire137](https://github.com/cheshire137)! - Fix unreadable text when utility is used in dropdown item.
+
+* [#1472](https://github.com/primer/css/pull/1472) [`8541ed1d`](https://github.com/primer/css/commit/8541ed1db1e0d9c4551ea76ba400d6d0cf682897) Thanks [@simurai](https://github.com/simurai)! - Use variable for the active border of the UnderlineNav
+
+- [#1475](https://github.com/primer/css/pull/1475) [`105296c6`](https://github.com/primer/css/commit/105296c6b4b33d9e84038173bf9af09889a99dcd) Thanks [@simurai](https://github.com/simurai)! - Make `TimelineItem-badge--success` ready for Color Modes V2
+
+* [#1452](https://github.com/primer/css/pull/1452) [`8838a3ac`](https://github.com/primer/css/commit/8838a3ac48ec1589594291313349f49737317b5d) Thanks [@mktcode](https://github.com/mktcode)! - Division using / is deprecated. Replaced it with multiplications.
+
 ## 17.3.0
 
 ### Minor Changes

@@ -867,9 +867,9 @@
     fastq "^1.6.0"
 
 "@primer/primitives@^4.3.5":
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-4.5.0.tgz#0b8f874958cd2a8ab069232cc8b46bf0b8e3dac4"
-  integrity sha512-s1+8h4xQlreieqoJxcfIPtdWm2sNOojCQlhGi73qSEQQ9a7ozjUFl6GBvXOsLLUXsvNutv42Xu41ctVOF5JTwQ==
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-4.5.1.tgz#aede2364d7c33de4489ab1e6473925fc86284208"
+  integrity sha512-dA5EKORl1fqOa5+cDKYXTPLTNK0BuHS6NPHh1b11H4ngSd6cbuXzzVkUCJ1ooTDR6UbOrpeXMdlUbA9EcwwFVA==
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.2"

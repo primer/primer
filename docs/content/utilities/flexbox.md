@@ -40,9 +40,9 @@ Use these classes to make an element lay out its content using the flexbox model
 ```html live
 <!-- flex container -->
 <div class="border d-flex">
-  <div class="p-5 border bg-gray-light">flex item 1</div>
-  <div class="p-5 border bg-gray-light">flex item 2</div>
-  <div class="p-5 border bg-gray-light">flex item 3</div>
+  <div class="p-5 border color-bg-secondary">flex item 1</div>
+  <div class="p-5 border color-bg-secondary">flex item 2</div>
+  <div class="p-5 border color-bg-secondary">flex item 3</div>
 </div>
 ```
 
@@ -51,9 +51,9 @@ Use these classes to make an element lay out its content using the flexbox model
 ```html live
 <!-- inline-flex container -->
 <div class="border d-inline-flex">
-  <div class="p-5 border bg-gray-light">flex item 1</div>
-  <div class="p-5 border bg-gray-light">flex item 2</div>
-  <div class="p-5 border bg-gray-light">flex item 3</div>
+  <div class="p-5 border color-bg-secondary">flex item 1</div>
+  <div class="p-5 border color-bg-secondary">flex item 2</div>
+  <div class="p-5 border color-bg-secondary">flex item 3</div>
 </div>
 ```
 
@@ -83,9 +83,9 @@ Use these classes to define the orientation of the main axis (`row` or `column`)
 
 ```html live
 <div class="border d-flex flex-column">
-  <div class="p-5 border bg-gray-light">Item 1</div>
-  <div class="p-5 border bg-gray-light">Item 2</div>
-  <div class="p-5 border bg-gray-light">Item 3</div>
+  <div class="p-5 border color-bg-secondary">Item 1</div>
+  <div class="p-5 border color-bg-secondary">Item 2</div>
+  <div class="p-5 border color-bg-secondary">Item 3</div>
 </div>
 ```
 
@@ -95,9 +95,9 @@ This example uses the responsive variant `.flex-sm-column-reverse` to override `
 
 ```html live
 <div class="border d-flex flex-column flex-sm-column-reverse">
-  <div class="p-5 border bg-gray-light">Item 1</div>
-  <div class="p-5 border bg-gray-light">Item 2</div>
-  <div class="p-5 border bg-gray-light">Item 3</div>
+  <div class="p-5 border color-bg-secondary">Item 1</div>
+  <div class="p-5 border color-bg-secondary">Item 2</div>
+  <div class="p-5 border color-bg-secondary">Item 3</div>
 </div>
 ```
 
@@ -107,9 +107,9 @@ This example uses the responsive variant `.flex-sm-row` to override `.flex-colum
 
 ```html live
 <div class="border d-flex flex-column flex-sm-row">
-  <div class="p-5 border bg-gray-light">Item 1</div>
-  <div class="p-5 border bg-gray-light">Item 2</div>
-  <div class="p-5 border bg-gray-light">Item 3</div>
+  <div class="p-5 border color-bg-secondary">Item 1</div>
+  <div class="p-5 border color-bg-secondary">Item 2</div>
+  <div class="p-5 border color-bg-secondary">Item 3</div>
 </div>
 ```
 
@@ -119,9 +119,9 @@ This example uses the responsive variant `.flex-sm-row-reverse` to override `.fl
 
 ```html live
 <div class="border d-flex flex-column flex-sm-row-reverse">
-  <div class="p-5 border bg-gray-light">Item 1</div>
-  <div class="p-5 border bg-gray-light">Item 2</div>
-  <div class="p-5 border bg-gray-light">Item 3</div>
+  <div class="p-5 border color-bg-secondary">Item 1</div>
+  <div class="p-5 border color-bg-secondary">Item 2</div>
+  <div class="p-5 border color-bg-secondary">Item 3</div>
 </div>
 ```
 
@@ -149,15 +149,15 @@ You can choose whether flex items are forced into a single line or wrapped onto 
 
 ```html live
 <div class="border d-flex flex-wrap">
-  <div class="p-5 px-6 border bg-gray-light">1</div>
-  <div class="p-5 px-6 border bg-gray-light">2</div>
-  <div class="p-5 px-6 border bg-gray-light">3</div>
-  <div class="p-5 px-6 border bg-gray-light">4</div>
-  <div class="p-5 px-6 border bg-gray-light">5</div>
-  <div class="p-5 px-6 border bg-gray-light">6</div>
-  <div class="p-5 px-6 border bg-gray-light">7</div>
-  <div class="p-5 px-6 border bg-gray-light">8</div>
-  <div class="p-5 px-6 border bg-gray-light">9</div>
+  <div class="p-5 px-6 border color-bg-secondary">1</div>
+  <div class="p-5 px-6 border color-bg-secondary">2</div>
+  <div class="p-5 px-6 border color-bg-secondary">3</div>
+  <div class="p-5 px-6 border color-bg-secondary">4</div>
+  <div class="p-5 px-6 border color-bg-secondary">5</div>
+  <div class="p-5 px-6 border color-bg-secondary">6</div>
+  <div class="p-5 px-6 border color-bg-secondary">7</div>
+  <div class="p-5 px-6 border color-bg-secondary">8</div>
+  <div class="p-5 px-6 border color-bg-secondary">9</div>
 </div>
 ```
 
@@ -165,15 +165,15 @@ You can choose whether flex items are forced into a single line or wrapped onto 
 
 ```html live
 <div class="border d-flex flex-nowrap">
-  <div class="p-5 px-6 border bg-gray-light">1</div>
-  <div class="p-5 px-6 border bg-gray-light">2</div>
-  <div class="p-5 px-6 border bg-gray-light">3</div>
-  <div class="p-5 px-6 border bg-gray-light">4</div>
-  <div class="p-5 px-6 border bg-gray-light">5</div>
-  <div class="p-5 px-6 border bg-gray-light">6</div>
-  <div class="p-5 px-6 border bg-gray-light">7</div>
-  <div class="p-5 px-6 border bg-gray-light">8</div>
-  <div class="p-5 px-6 border bg-gray-light">9</div>
+  <div class="p-5 px-6 border color-bg-secondary">1</div>
+  <div class="p-5 px-6 border color-bg-secondary">2</div>
+  <div class="p-5 px-6 border color-bg-secondary">3</div>
+  <div class="p-5 px-6 border color-bg-secondary">4</div>
+  <div class="p-5 px-6 border color-bg-secondary">5</div>
+  <div class="p-5 px-6 border color-bg-secondary">6</div>
+  <div class="p-5 px-6 border color-bg-secondary">7</div>
+  <div class="p-5 px-6 border color-bg-secondary">8</div>
+  <div class="p-5 px-6 border color-bg-secondary">9</div>
 </div>
 ```
 
@@ -181,15 +181,15 @@ You can choose whether flex items are forced into a single line or wrapped onto 
 
 ```html live
 <div class="border d-flex flex-wrap-reverse">
-  <div class="p-5 px-6 border bg-gray-light">1</div>
-  <div class="p-5 px-6 border bg-gray-light">2</div>
-  <div class="p-5 px-6 border bg-gray-light">3</div>
-  <div class="p-5 px-6 border bg-gray-light">4</div>
-  <div class="p-5 px-6 border bg-gray-light">5</div>
-  <div class="p-5 px-6 border bg-gray-light">6</div>
-  <div class="p-5 px-6 border bg-gray-light">7</div>
-  <div class="p-5 px-6 border bg-gray-light">8</div>
-  <div class="p-5 px-6 border bg-gray-light">9</div>
+  <div class="p-5 px-6 border color-bg-secondary">1</div>
+  <div class="p-5 px-6 border color-bg-secondary">2</div>
+  <div class="p-5 px-6 border color-bg-secondary">3</div>
+  <div class="p-5 px-6 border color-bg-secondary">4</div>
+  <div class="p-5 px-6 border color-bg-secondary">5</div>
+  <div class="p-5 px-6 border color-bg-secondary">6</div>
+  <div class="p-5 px-6 border color-bg-secondary">7</div>
+  <div class="p-5 px-6 border color-bg-secondary">8</div>
+  <div class="p-5 px-6 border color-bg-secondary">9</div>
 </div>
 ```
 
@@ -223,9 +223,9 @@ Use `.flex-justify-start` to align items to the start line. By default this will
 
 ```html live
 <div class="border d-flex flex-justify-start">
-  <div class="p-5 border bg-gray-light">1</div>
-  <div class="p-5 border bg-gray-light">2</div>
-  <div class="p-5 border bg-gray-light">3</div>
+  <div class="p-5 border color-bg-secondary">1</div>
+  <div class="p-5 border color-bg-secondary">2</div>
+  <div class="p-5 border color-bg-secondary">3</div>
 </div>
 ```
 
@@ -235,9 +235,9 @@ Use `.flex-justify-end` to align items to the end line. By default this will be 
 
 ```html live
 <div class="border d-flex flex-justify-end">
- <div class="p-5 border bg-gray-light">1</div>
- <div class="p-5 border bg-gray-light">2</div>
- <div class="p-5 border bg-gray-light">3</div>
+ <div class="p-5 border color-bg-secondary">1</div>
+ <div class="p-5 border color-bg-secondary">2</div>
+ <div class="p-5 border color-bg-secondary">3</div>
 </div>
 ```
 
@@ -247,9 +247,9 @@ Use `.flex-justify-center` to align items in the middle of the container.
 
 ```html live
 <div class="border d-flex flex-justify-center">
- <div class="p-5 border bg-gray-light">1</div>
- <div class="p-5 border bg-gray-light">2</div>
- <div class="p-5 border bg-gray-light">3</div>
+ <div class="p-5 border color-bg-secondary">1</div>
+ <div class="p-5 border color-bg-secondary">2</div>
+ <div class="p-5 border color-bg-secondary">3</div>
 </div>
 ```
 
@@ -259,9 +259,9 @@ Use `.flex-justify-between` to distribute items evenly in the container. The fir
 
 ```html live
 <div class="border d-flex flex-justify-between">
- <div class="p-5 border bg-gray-light">1</div>
- <div class="p-5 border bg-gray-light">2</div>
- <div class="p-5 border bg-gray-light">3</div>
+ <div class="p-5 border color-bg-secondary">1</div>
+ <div class="p-5 border color-bg-secondary">2</div>
+ <div class="p-5 border color-bg-secondary">3</div>
 </div>
 ```
 
@@ -271,9 +271,9 @@ Use `.flex-justify-around` to distribute items evenly, with an equal amount of s
 
 ```html live
 <div class="border d-flex flex-justify-around">
- <div class="p-5 border bg-gray-light">1</div>
- <div class="p-5 border bg-gray-light">2</div>
- <div class="p-5 border bg-gray-light">3</div>
+ <div class="p-5 border color-bg-secondary">1</div>
+ <div class="p-5 border color-bg-secondary">2</div>
+ <div class="p-5 border color-bg-secondary">3</div>
 </div>
 ```
 
@@ -307,10 +307,10 @@ The cross axis runs perpendicular to the main axis. By default the main axis run
 
 ```html live
 <div  style="min-height: 150px;" class="border d-flex flex-items-start">
-  <div class="p-5 border bg-gray-light">1</div>
-  <div class="p-5 border bg-gray-light">2</div>
-  <div class="p-5 border bg-gray-light">3</div>
-  <div class="p-5 border bg-gray-light">4</div>
+  <div class="p-5 border color-bg-secondary">1</div>
+  <div class="p-5 border color-bg-secondary">2</div>
+  <div class="p-5 border color-bg-secondary">3</div>
+  <div class="p-5 border color-bg-secondary">4</div>
 </div>
 ```
 
@@ -318,10 +318,10 @@ The cross axis runs perpendicular to the main axis. By default the main axis run
 
 ```html live
 <div  style="min-height: 150px;" class="border d-flex flex-items-end">
-  <div class="p-5 border bg-gray-light">1</div>
-  <div class="p-5 border bg-gray-light">2</div>
-  <div class="p-5 border bg-gray-light">3</div>
-  <div class="p-5 border bg-gray-light">4</div>
+  <div class="p-5 border color-bg-secondary">1</div>
+  <div class="p-5 border color-bg-secondary">2</div>
+  <div class="p-5 border color-bg-secondary">3</div>
+  <div class="p-5 border color-bg-secondary">4</div>
 </div>
 ```
 
@@ -329,10 +329,10 @@ The cross axis runs perpendicular to the main axis. By default the main axis run
 
 ```html live
 <div  style="min-height: 150px;" class="border d-flex flex-items-center">
-  <div class="p-5 border bg-gray-light">1</div>
-  <div class="p-5 border bg-gray-light">2</div>
-  <div class="p-5 border bg-gray-light">3</div>
-  <div class="p-5 border bg-gray-light">4</div>
+  <div class="p-5 border color-bg-secondary">1</div>
+  <div class="p-5 border color-bg-secondary">2</div>
+  <div class="p-5 border color-bg-secondary">3</div>
+  <div class="p-5 border color-bg-secondary">4</div>
 </div>
 ```
 
@@ -342,10 +342,10 @@ With `.flex-items-baseline`, items will be aligned along their baselines even if
 
 ```html live
 <div  style="min-height: 150px;" class="border d-flex flex-items-baseline">
-  <div class="p-5 border bg-gray-light f1">1</div>
-  <div class="p-5 border bg-gray-light">2</div>
-  <div class="p-5 border bg-gray-light f3">3</div>
-  <div class="p-5 border bg-gray-light">4</div>
+  <div class="p-5 border color-bg-secondary f1">1</div>
+  <div class="p-5 border color-bg-secondary">2</div>
+  <div class="p-5 border color-bg-secondary f3">3</div>
+  <div class="p-5 border color-bg-secondary">4</div>
 </div>
 ```
 
@@ -353,10 +353,10 @@ With `.flex-items-baseline`, items will be aligned along their baselines even if
 
 ```html live
 <div  style="min-height: 150px;" class="border d-flex flex-items-stretch">
-  <div class="p-5 border bg-gray-light">1</div>
-  <div class="p-5 border bg-gray-light">2</div>
-  <div class="p-5 border bg-gray-light">3</div>
-  <div class="p-5 border bg-gray-light">4</div>
+  <div class="p-5 border color-bg-secondary">1</div>
+  <div class="p-5 border color-bg-secondary">2</div>
+  <div class="p-5 border color-bg-secondary">3</div>
+  <div class="p-5 border color-bg-secondary">4</div>
 </div>
 ```
 
@@ -390,18 +390,18 @@ When the main axis wraps, this creates multiple main axis lines and adds extra s
 
 ```html live
 <div style="min-height: 300px;" class="border d-flex flex-wrap flex-content-start">
-  <div class="p-5 border bg-gray-light">1</div>
-  <div class="p-5 border bg-gray-light">2</div>
-  <div class="p-5 border bg-gray-light">3</div>
-  <div class="p-5 border bg-gray-light">4</div>
-  <div class="p-5 border bg-gray-light">5</div>
-  <div class="p-5 border bg-gray-light">6</div>
-  <div class="p-5 border bg-gray-light">7</div>
-  <div class="p-5 border bg-gray-light">8</div>
-  <div class="p-5 border bg-gray-light">9</div>
-  <div class="p-5 border bg-gray-light">10</div>
-  <div class="p-5 border bg-gray-light">11</div>
-  <div class="p-5 border bg-gray-light">12</div>
+  <div class="p-5 border color-bg-secondary">1</div>
+  <div class="p-5 border color-bg-secondary">2</div>
+  <div class="p-5 border color-bg-secondary">3</div>
+  <div class="p-5 border color-bg-secondary">4</div>
+  <div class="p-5 border color-bg-secondary">5</div>
+  <div class="p-5 border color-bg-secondary">6</div>
+  <div class="p-5 border color-bg-secondary">7</div>
+  <div class="p-5 border color-bg-secondary">8</div>
+  <div class="p-5 border color-bg-secondary">9</div>
+  <div class="p-5 border color-bg-secondary">10</div>
+  <div class="p-5 border color-bg-secondary">11</div>
+  <div class="p-5 border color-bg-secondary">12</div>
 </div>
 ```
 
@@ -409,18 +409,18 @@ When the main axis wraps, this creates multiple main axis lines and adds extra s
 
 ```html live
 <div style="min-height: 300px;" class="border d-flex flex-wrap flex-content-end">
-  <div class="p-5 border bg-gray-light">1</div>
-  <div class="p-5 border bg-gray-light">2</div>
-  <div class="p-5 border bg-gray-light">3</div>
-  <div class="p-5 border bg-gray-light">4</div>
-  <div class="p-5 border bg-gray-light">5</div>
-  <div class="p-5 border bg-gray-light">6</div>
-  <div class="p-5 border bg-gray-light">7</div>
-  <div class="p-5 border bg-gray-light">8</div>
-  <div class="p-5 border bg-gray-light">9</div>
-  <div class="p-5 border bg-gray-light">10</div>
-  <div class="p-5 border bg-gray-light">11</div>
-  <div class="p-5 border bg-gray-light">12</div>
+  <div class="p-5 border color-bg-secondary">1</div>
+  <div class="p-5 border color-bg-secondary">2</div>
+  <div class="p-5 border color-bg-secondary">3</div>
+  <div class="p-5 border color-bg-secondary">4</div>
+  <div class="p-5 border color-bg-secondary">5</div>
+  <div class="p-5 border color-bg-secondary">6</div>
+  <div class="p-5 border color-bg-secondary">7</div>
+  <div class="p-5 border color-bg-secondary">8</div>
+  <div class="p-5 border color-bg-secondary">9</div>
+  <div class="p-5 border color-bg-secondary">10</div>
+  <div class="p-5 border color-bg-secondary">11</div>
+  <div class="p-5 border color-bg-secondary">12</div>
 </div>
 ```
 
@@ -428,18 +428,18 @@ When the main axis wraps, this creates multiple main axis lines and adds extra s
 
 ```html live
 <div style="min-height: 300px;" class="border d-flex flex-wrap flex-content-center">
-  <div class="p-5 border bg-gray-light">1</div>
-  <div class="p-5 border bg-gray-light">2</div>
-  <div class="p-5 border bg-gray-light">3</div>
-  <div class="p-5 border bg-gray-light">4</div>
-  <div class="p-5 border bg-gray-light">5</div>
-  <div class="p-5 border bg-gray-light">6</div>
-  <div class="p-5 border bg-gray-light">7</div>
-  <div class="p-5 border bg-gray-light">8</div>
-  <div class="p-5 border bg-gray-light">9</div>
-  <div class="p-5 border bg-gray-light">10</div>
-  <div class="p-5 border bg-gray-light">11</div>
-  <div class="p-5 border bg-gray-light">12</div>
+  <div class="p-5 border color-bg-secondary">1</div>
+  <div class="p-5 border color-bg-secondary">2</div>
+  <div class="p-5 border color-bg-secondary">3</div>
+  <div class="p-5 border color-bg-secondary">4</div>
+  <div class="p-5 border color-bg-secondary">5</div>
+  <div class="p-5 border color-bg-secondary">6</div>
+  <div class="p-5 border color-bg-secondary">7</div>
+  <div class="p-5 border color-bg-secondary">8</div>
+  <div class="p-5 border color-bg-secondary">9</div>
+  <div class="p-5 border color-bg-secondary">10</div>
+  <div class="p-5 border color-bg-secondary">11</div>
+  <div class="p-5 border color-bg-secondary">12</div>
 </div>
 ```
 
@@ -447,18 +447,18 @@ When the main axis wraps, this creates multiple main axis lines and adds extra s
 
 ```html live
 <div style="min-height: 300px;" class="border d-flex flex-wrap flex-content-between">
-  <div class="p-5 border bg-gray-light">1</div>
-  <div class="p-5 border bg-gray-light">2</div>
-  <div class="p-5 border bg-gray-light">3</div>
-  <div class="p-5 border bg-gray-light">4</div>
-  <div class="p-5 border bg-gray-light">5</div>
-  <div class="p-5 border bg-gray-light">6</div>
-  <div class="p-5 border bg-gray-light">7</div>
-  <div class="p-5 border bg-gray-light">8</div>
-  <div class="p-5 border bg-gray-light">9</div>
-  <div class="p-5 border bg-gray-light">10</div>
-  <div class="p-5 border bg-gray-light">11</div>
-  <div class="p-5 border bg-gray-light">12</div>
+  <div class="p-5 border color-bg-secondary">1</div>
+  <div class="p-5 border color-bg-secondary">2</div>
+  <div class="p-5 border color-bg-secondary">3</div>
+  <div class="p-5 border color-bg-secondary">4</div>
+  <div class="p-5 border color-bg-secondary">5</div>
+  <div class="p-5 border color-bg-secondary">6</div>
+  <div class="p-5 border color-bg-secondary">7</div>
+  <div class="p-5 border color-bg-secondary">8</div>
+  <div class="p-5 border color-bg-secondary">9</div>
+  <div class="p-5 border color-bg-secondary">10</div>
+  <div class="p-5 border color-bg-secondary">11</div>
+  <div class="p-5 border color-bg-secondary">12</div>
 </div>
 ```
 
@@ -466,18 +466,18 @@ When the main axis wraps, this creates multiple main axis lines and adds extra s
 
 ```html live
 <div style="min-height: 300px;" class="border d-flex flex-wrap flex-content-around">
-  <div class="p-5 border bg-gray-light">1</div>
-  <div class="p-5 border bg-gray-light">2</div>
-  <div class="p-5 border bg-gray-light">3</div>
-  <div class="p-5 border bg-gray-light">4</div>
-  <div class="p-5 border bg-gray-light">5</div>
-  <div class="p-5 border bg-gray-light">6</div>
-  <div class="p-5 border bg-gray-light">7</div>
-  <div class="p-5 border bg-gray-light">8</div>
-  <div class="p-5 border bg-gray-light">9</div>
-  <div class="p-5 border bg-gray-light">10</div>
-  <div class="p-5 border bg-gray-light">11</div>
-  <div class="p-5 border bg-gray-light">12</div>
+  <div class="p-5 border color-bg-secondary">1</div>
+  <div class="p-5 border color-bg-secondary">2</div>
+  <div class="p-5 border color-bg-secondary">3</div>
+  <div class="p-5 border color-bg-secondary">4</div>
+  <div class="p-5 border color-bg-secondary">5</div>
+  <div class="p-5 border color-bg-secondary">6</div>
+  <div class="p-5 border color-bg-secondary">7</div>
+  <div class="p-5 border color-bg-secondary">8</div>
+  <div class="p-5 border color-bg-secondary">9</div>
+  <div class="p-5 border color-bg-secondary">10</div>
+  <div class="p-5 border color-bg-secondary">11</div>
+  <div class="p-5 border color-bg-secondary">12</div>
 </div>
 ```
 
@@ -485,18 +485,18 @@ When the main axis wraps, this creates multiple main axis lines and adds extra s
 
 ```html live
 <div style="min-height: 300px;" class="border d-flex flex-wrap flex-content-stretch">
-  <div class="p-5 border bg-gray-light">1</div>
-  <div class="p-5 border bg-gray-light">2</div>
-  <div class="p-5 border bg-gray-light">3</div>
-  <div class="p-5 border bg-gray-light">4</div>
-  <div class="p-5 border bg-gray-light">5</div>
-  <div class="p-5 border bg-gray-light">6</div>
-  <div class="p-5 border bg-gray-light">7</div>
-  <div class="p-5 border bg-gray-light">8</div>
-  <div class="p-5 border bg-gray-light">9</div>
-  <div class="p-5 border bg-gray-light">10</div>
-  <div class="p-5 border bg-gray-light">11</div>
-  <div class="p-5 border bg-gray-light">12</div>
+  <div class="p-5 border color-bg-secondary">1</div>
+  <div class="p-5 border color-bg-secondary">2</div>
+  <div class="p-5 border color-bg-secondary">3</div>
+  <div class="p-5 border color-bg-secondary">4</div>
+  <div class="p-5 border color-bg-secondary">5</div>
+  <div class="p-5 border color-bg-secondary">6</div>
+  <div class="p-5 border color-bg-secondary">7</div>
+  <div class="p-5 border color-bg-secondary">8</div>
+  <div class="p-5 border color-bg-secondary">9</div>
+  <div class="p-5 border color-bg-secondary">10</div>
+  <div class="p-5 border color-bg-secondary">11</div>
+  <div class="p-5 border color-bg-secondary">12</div>
 </div>
 ```
 
@@ -524,9 +524,9 @@ Adding `.flex-1` makes the item grow in size to take up all the space that is av
 
 ```html live
 <div class="border d-flex">
-  <div class="p-5 border bg-gray-light">flex item</div>
-  <div class="p-5 border bg-gray-light flex-1">.flex-1</div>
-  <div class="p-5 border bg-gray-light">flex item</div>
+  <div class="p-5 border color-bg-secondary">flex item</div>
+  <div class="p-5 border color-bg-secondary flex-1">.flex-1</div>
+  <div class="p-5 border color-bg-secondary">flex item</div>
 </div>
 ```
 
@@ -534,9 +534,9 @@ Adding `.flex-1` to all flex items results in each item having the same size.
 
 ```html live
 <div class="border d-flex">
-  <div class="p-5 border bg-gray-light flex-1">.flex-1</div>
-  <div class="p-5 border bg-gray-light flex-1">.flex-1</div>
-  <div class="p-5 border bg-gray-light flex-1">.flex-1</div>
+  <div class="p-5 border color-bg-secondary flex-1">.flex-1</div>
+  <div class="p-5 border color-bg-secondary flex-1">.flex-1</div>
+  <div class="p-5 border color-bg-secondary flex-1">.flex-1</div>
 </div>
 ```
 
@@ -546,9 +546,9 @@ Using `.flex-auto` fills the available space but also takes the size of the cont
 
 ```html live
 <div class="border d-flex">
-  <div class="p-5 border bg-gray-light flex-1">.flex-1</div>
-  <div class="p-5 border bg-gray-light flex-auto">.flex-auto with a bit more text</div>
-  <div class="p-5 border bg-gray-light flex-1">.flex-1</div>
+  <div class="p-5 border color-bg-secondary flex-1">.flex-1</div>
+  <div class="p-5 border color-bg-secondary flex-auto">.flex-auto with a bit more text</div>
+  <div class="p-5 border color-bg-secondary flex-1">.flex-1</div>
 </div>
 ```
 
@@ -558,9 +558,9 @@ Add `.flex-grow-0` to prevent an item from growing. This can be useful when used
 
 ```html live
 <div class="border d-flex">
-  <div class="p-5 border bg-gray-light">flex item</div>
-  <div class="p-5 border bg-gray-light flex-auto flex-sm-grow-0">.flex-auto .flex-sm-grow-0</div>
-  <div class="p-5 border bg-gray-light">flex item</div>
+  <div class="p-5 border color-bg-secondary">flex item</div>
+  <div class="p-5 border color-bg-secondary flex-auto flex-sm-grow-0">.flex-auto .flex-sm-grow-0</div>
+  <div class="p-5 border color-bg-secondary">flex item</div>
 </div>
 ```
 
@@ -570,9 +570,9 @@ Add `.flex-shrink-0` to prevent an item from shrinking. Note that for example te
 
 ```html live
 <div class="p-2 border d-flex" style="max-width: 340px">
-  <div class="p-5 border bg-gray-light">flex item</div>
-  <div class="p-5 border bg-gray-light flex-shrink-0">.flex-shrink-0</div>
-  <div class="p-5 border bg-gray-light">flex item</div>
+  <div class="p-5 border color-bg-secondary">flex item</div>
+  <div class="p-5 border color-bg-secondary flex-shrink-0">.flex-shrink-0</div>
+  <div class="p-5 border color-bg-secondary">flex item</div>
 </div>
 ```
 
@@ -606,9 +606,9 @@ Use these classes to adjust the alignment of an individual flex item on the cros
 
 ```html live
 <div style="min-height: 150px;" class="border d-flex">
-  <div class="p-5 border bg-gray-light flex-self-auto">.flex-self-auto</div>
-  <div class="p-5 border bg-gray-light">&nbsp;</div>
-  <div class="p-5 border bg-gray-light">&nbsp;</div>
+  <div class="p-5 border color-bg-secondary flex-self-auto">.flex-self-auto</div>
+  <div class="p-5 border color-bg-secondary">&nbsp;</div>
+  <div class="p-5 border color-bg-secondary">&nbsp;</div>
 </div>
 ```
 
@@ -616,9 +616,9 @@ Use these classes to adjust the alignment of an individual flex item on the cros
 
 ```html live
 <div style="min-height: 150px;" class="border d-flex">
-  <div class="p-5 border bg-gray-light flex-self-start">.flex-self-start</div>
-  <div class="p-5 border bg-gray-light">&nbsp;</div>
-  <div class="p-5 border bg-gray-light">&nbsp;</div>
+  <div class="p-5 border color-bg-secondary flex-self-start">.flex-self-start</div>
+  <div class="p-5 border color-bg-secondary">&nbsp;</div>
+  <div class="p-5 border color-bg-secondary">&nbsp;</div>
 </div>
 ```
 
@@ -626,9 +626,9 @@ Use these classes to adjust the alignment of an individual flex item on the cros
 
 ```html live
 <div style="min-height: 150px;" class="border d-flex">
-  <div class="p-5 border bg-gray-light flex-self-end">.flex-self-end</div>
-  <div class="p-5 border bg-gray-light">&nbsp;</div>
-  <div class="p-5 border bg-gray-light">&nbsp;</div>
+  <div class="p-5 border color-bg-secondary flex-self-end">.flex-self-end</div>
+  <div class="p-5 border color-bg-secondary">&nbsp;</div>
+  <div class="p-5 border color-bg-secondary">&nbsp;</div>
 </div>
 ```
 
@@ -636,9 +636,9 @@ Use these classes to adjust the alignment of an individual flex item on the cros
 
 ```html live
 <div style="min-height: 150px;" class="border d-flex">
-  <div class="p-5 border bg-gray-light flex-self-center">.flex-self-center</div>
-  <div class="p-5 border bg-gray-light">&nbsp;</div>
-  <div class="p-5 border bg-gray-light">&nbsp;</div>
+  <div class="p-5 border color-bg-secondary flex-self-center">.flex-self-center</div>
+  <div class="p-5 border color-bg-secondary">&nbsp;</div>
+  <div class="p-5 border color-bg-secondary">&nbsp;</div>
 </div>
 ```
 
@@ -646,9 +646,9 @@ Use these classes to adjust the alignment of an individual flex item on the cros
 
 ```html live
 <div style="min-height: 150px;" class="border d-flex flex-items-end">
-  <div class="p-5 border bg-gray-light flex-self-baseline f4">.flex-self-baseline</div>
-  <div class="p-5 border bg-gray-light f1">item</div>
-  <div class="p-5 border bg-gray-light f00">item</div>
+  <div class="p-5 border color-bg-secondary flex-self-baseline f4">.flex-self-baseline</div>
+  <div class="p-5 border color-bg-secondary f1">item</div>
+  <div class="p-5 border color-bg-secondary f00">item</div>
 </div>
 ```
 
@@ -656,9 +656,9 @@ Use these classes to adjust the alignment of an individual flex item on the cros
 
 ```html live
 <div style="min-height: 150px;" class="border d-flex flex-items-start">
-  <div class="p-5 border bg-gray-light flex-self-stretch">.flex-self-stretch</div>
-  <div class="p-5 border bg-gray-light">&nbsp;</div>
-  <div class="p-5 border bg-gray-light">&nbsp;</div>
+  <div class="p-5 border color-bg-secondary flex-self-stretch">.flex-self-stretch</div>
+  <div class="p-5 border color-bg-secondary">&nbsp;</div>
+  <div class="p-5 border color-bg-secondary">&nbsp;</div>
 </div>
 ```
 
@@ -687,9 +687,9 @@ Use these classes to change the order of flex items. Keep in mind that it won't 
 
 ```html live
 <div class="border d-flex">
-  <div class="p-5 border bg-gray-light flex-order-2">1. .flex-order-2</div>
-  <div class="p-5 border bg-gray-light">2.</div>
-  <div class="p-5 border bg-gray-light flex-order-1">3. .flex-order-1</div>
+  <div class="p-5 border color-bg-secondary flex-order-2">1. .flex-order-2</div>
+  <div class="p-5 border color-bg-secondary">2.</div>
+  <div class="p-5 border color-bg-secondary flex-order-1">3. .flex-order-1</div>
 </div>
 ```
 
@@ -699,9 +699,9 @@ Resize window to see the effect.
 
 ```html live
 <div class="border d-flex">
-  <div class="p-5 border bg-gray-light flex-order-1 flex-sm-order-none">1. .flex-order-1 .flex-sm-order-none</div>
-  <div class="p-5 border bg-gray-light">2.</div>
-  <div class="p-5 border bg-gray-light">3.</div>
+  <div class="p-5 border color-bg-secondary flex-order-1 flex-sm-order-none">1. .flex-order-1 .flex-sm-order-none</div>
+  <div class="p-5 border color-bg-secondary">2.</div>
+  <div class="p-5 border color-bg-secondary">3.</div>
 </div>
 ```
 
@@ -737,9 +737,9 @@ Mixing flex properties:
 
 ```html live
 <div style="min-height: 150px;" class="border d-flex flex-items-start flex-sm-items-center flex-justify-start flex-lg-justify-between">
-  <div class="p-5 border bg-gray-light flex-sm-self-stretch">.flex-self-stretch</div>
-  <div class="p-5 border bg-gray-light">&nbsp;</div>
-  <div class="p-5 border bg-gray-light">&nbsp;</div>
+  <div class="p-5 border color-bg-secondary flex-sm-self-stretch">.flex-self-stretch</div>
+  <div class="p-5 border color-bg-secondary">&nbsp;</div>
+  <div class="p-5 border color-bg-secondary">&nbsp;</div>
 </div>
 ```
 
@@ -753,7 +753,7 @@ You can use flex utilities to make a simple media object, like this:
 
 ```html live
 <div class="border d-flex flex-items-center p-4">
-  <div class="p-5 border bg-gray-light">image</div>
+  <div class="p-5 border color-bg-secondary">image</div>
   <p class="pl-4 m-0"><b>Body</b> Bacon ipsum dolor sit amet chuck prosciutto landjaeger ham hock filet mignon shoulder hamburger pig venison.</p>
 </div>
 ```

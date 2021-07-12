@@ -18,7 +18,7 @@ path: stickersheet/sizes
 <span class="d-inline-block col-1 text-gray-light">20px</span>
 <img class="mr-3 avatar avatar-2" src="https://avatars.githubusercontent.com/jonrohan?s=64" />
 <span class="mr-3 Label">Label</span>
-<span class="mr-3 IssueLabel bg-pink text-white">IssueLabel</span>
+<span class="mr-3 IssueLabel color-bg-info-inverse color-text-white">IssueLabel</span>
 <span class="mr-3 Counter">1.5K</span>
 
 
@@ -27,7 +27,7 @@ path: stickersheet/sizes
 <span class="d-inline-block col-1 text-gray-light">24px</span>
 <img class="mr-3 avatar avatar-3" src="https://avatars.githubusercontent.com/jonrohan?s=64" />
 <span class="mr-3 Label Label--large">Label</span>
-<span class="mr-3 IssueLabel IssueLabel--big bg-purple text-white">IssueLabel</span>
+<span class="mr-3 IssueLabel IssueLabel--big color-bg-info-inverse color-text-white">IssueLabel</span>
 <span class="mr-3 State State--small">State</span>
 
 

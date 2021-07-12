@@ -43,13 +43,13 @@ Use uniform spacing utilities to apply equal margin to all sides of an element. 
 
 ```html live
 <div class="d-flex flex-items-baseline flex-justify-around">
-  <div class="bg-yellow"><div class="m-0 p-1 color-bg-secondary">.m-0</div></div>
-  <div class="bg-yellow"><div class="m-1 p-1 color-bg-secondary">.m-1</div></div>
-  <div class="bg-yellow"><div class="m-2 p-1 color-bg-secondary">.m-2</div></div>
-  <div class="bg-yellow"><div class="m-3 p-1 color-bg-secondary">.m-3</div></div>
-  <div class="bg-yellow"><div class="m-4 p-1 color-bg-secondary">.m-4</div></div>
-  <div class="bg-yellow"><div class="m-5 p-1 color-bg-secondary">.m-5</div></div>
-  <div class="bg-yellow"><div class="m-6 p-1 color-bg-secondary">.m-6</div></div>
+  <div class="color-bg-warning"><div class="m-0 p-1 color-bg-secondary">.m-0</div></div>
+  <div class="color-bg-warning"><div class="m-1 p-1 color-bg-secondary">.m-1</div></div>
+  <div class="color-bg-warning"><div class="m-2 p-1 color-bg-secondary">.m-2</div></div>
+  <div class="color-bg-warning"><div class="m-3 p-1 color-bg-secondary">.m-3</div></div>
+  <div class="color-bg-warning"><div class="m-4 p-1 color-bg-secondary">.m-4</div></div>
+  <div class="color-bg-warning"><div class="m-5 p-1 color-bg-secondary">.m-5</div></div>
+  <div class="color-bg-warning"><div class="m-6 p-1 color-bg-secondary">.m-6</div></div>
 </div>
 ```
 
@@ -59,12 +59,12 @@ Use directional utilities to apply margin to an individual side, or the X and Y 
 
 ```html live
 <div class="d-flex flex-items-baseline flex-justify-around">
-  <div class="bg-yellow"><div class="mt-3 p-1 color-bg-secondary">.mt-3</div></div>
-  <div class="bg-yellow"><div class="mr-3 p-1 color-bg-secondary">.mr-3</div></div>
-  <div class="bg-yellow"><div class="mb-3 p-1 color-bg-secondary">.mb-3</div></div>
-  <div class="bg-yellow"><div class="ml-3 p-1 color-bg-secondary">.ml-3</div></div>
-  <div class="bg-yellow"><div class="mx-3 p-1 color-bg-secondary">.mx-3</div></div>
-  <div class="bg-yellow"><div class="my-3 p-1 color-bg-secondary">.my-3</div></div>
+  <div class="color-bg-warning"><div class="mt-3 p-1 color-bg-secondary">.mt-3</div></div>
+  <div class="color-bg-warning"><div class="mr-3 p-1 color-bg-secondary">.mr-3</div></div>
+  <div class="color-bg-warning"><div class="mb-3 p-1 color-bg-secondary">.mb-3</div></div>
+  <div class="color-bg-warning"><div class="ml-3 p-1 color-bg-secondary">.ml-3</div></div>
+  <div class="color-bg-warning"><div class="mx-3 p-1 color-bg-secondary">.mx-3</div></div>
+  <div class="color-bg-warning"><div class="my-3 p-1 color-bg-secondary">.my-3</div></div>
 </div>
 ```
 
@@ -73,12 +73,12 @@ Use directional utilities to apply margin to an individual side, or the X and Y 
 The extended scale starts from spacer `7` up to `12`. **Note**: Only the y-axis (`mt`, `mb` and `my`) and its responsive variants are supported.
 
 ```html live
-<div class="bg-yellow d-inline-block"><div class="mt-7  p-1 color-bg-secondary">.mb-7</div></div>
-<div class="bg-yellow d-inline-block"><div class="mt-8  p-1 color-bg-secondary">.mb-8</div></div>
-<div class="bg-yellow d-inline-block"><div class="mt-9  p-1 color-bg-secondary">.mb-9</div></div>
-<div class="bg-yellow d-inline-block"><div class="mt-10 p-1 color-bg-secondary">.mb-10</div></div>
-<div class="bg-yellow d-inline-block"><div class="mt-11 p-1 color-bg-secondary">.mb-11</div></div>
-<div class="bg-yellow d-inline-block"><div class="mt-12 p-1 color-bg-secondary">.mb-12</div></div>
+<div class="color-bg-warning d-inline-block"><div class="mt-7  p-1 color-bg-secondary">.mb-7</div></div>
+<div class="color-bg-warning d-inline-block"><div class="mt-8  p-1 color-bg-secondary">.mb-8</div></div>
+<div class="color-bg-warning d-inline-block"><div class="mt-9  p-1 color-bg-secondary">.mb-9</div></div>
+<div class="color-bg-warning d-inline-block"><div class="mt-10 p-1 color-bg-secondary">.mb-10</div></div>
+<div class="color-bg-warning d-inline-block"><div class="mt-11 p-1 color-bg-secondary">.mb-11</div></div>
+<div class="color-bg-warning d-inline-block"><div class="mt-12 p-1 color-bg-secondary">.mb-12</div></div>
 ```
 
 ## Center elements
@@ -86,7 +86,7 @@ The extended scale starts from spacer `7` up to `12`. **Note**: Only the y-axis 
 Use `mx-auto`to center block elements with a set width.
 
 ```html live
-<div class="bg-yellow">
+<div class="color-bg-warning">
   <div class="mx-auto color-bg-secondary text-center" style="max-width: 500px;">.mx-auto</div>
 </div>
 ```

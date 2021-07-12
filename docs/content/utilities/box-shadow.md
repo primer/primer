@@ -61,7 +61,7 @@ Medium box shadows are typically used on editorialized content that needs to app
 ```html live
 <div class="col-6">
   <a class="d-block color-shadow-medium px-3 pt-4 pb-6 position-relative rounded-1 overflow-hidden no-underline" href="#">
-    <div class="bg-blue position-absolute top-0 left-0 py-1 width-full"></div>
+    <div class="position-absolute top-0 left-0 py-1 width-full"></div>
     <h3 class="text-gray-dark">Serverless architecture</h3>
     <p class="text-gray">
       Build powerful, event-driven, serverless architectures with these open-source libraries and frameworks.

@@ -20,10 +20,10 @@ Use these with `.position-absolute` to position decorative assets and shapes on 
 In an effort to reduce the size of our CSS, responsive breakpoints are only supported for `md` and `lg` breakpoints. **There is no support for `sm` and `xl` breakpoints.**
 
 ```html live
-<div class="position-relative p-6 bg-gray">
-  <div class="border bg-white position-absolute top-2">.top-2</div>
-  <div class="border bg-white position-absolute position-lg-static right-md-4">.right-md-4</div>
-  <div class="border bg-white position-lg-absolute left-lg-1">.left-lg-1</div>
+<div class="position-relative p-6 color-bg-secondary">
+  <div class="border color-bg-primary position-absolute top-2">.top-2</div>
+  <div class="border color-bg-primary position-absolute position-lg-static right-md-4">.right-md-4</div>
+  <div class="border color-bg-primary position-lg-absolute left-lg-1">.left-lg-1</div>
 </div>
 ```
 

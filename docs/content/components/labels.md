@@ -180,9 +180,9 @@ You can also have icons and emoji in counters. Or use utilities for counters wit
   10
 </span>
 <span class="Counter mr-1">👍 2</span>
-<span class="Counter mr-1 bg-green text-white">22</span>
-<span class="Counter mr-1 bg-red text-white">22</span>
-<span class="Counter mr-1 bg-purple text-white">22</span>
+<span class="Counter mr-1 color-bg-success-inverse color-text-white">22</span>
+<span class="Counter mr-1 color-bg-danger-inverse color-text-white">22</span>
+<span class="Counter mr-1 color-bg-info-inverse color-text-white">22</span>
 ```
 
 ## Diffstat

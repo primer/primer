@@ -27,9 +27,11 @@
       @include breakpoint(md) {
         font-size: map-get($pairing-md, "size") !important;
         line-height: map-get($pairing-md, "lh") !important;
+
         @if (map-get($pairing-md, "size") >= $mktg-header-spacing-threshold and map-get($pairing, "size") < $mktg-header-spacing-threshold) {
           letter-spacing: $mktg-header-spacing-large !important;
         }
+
         @if (map-get($pairing-md, "size") >= $mktg-header-weight-threshold and map-get($pairing, "size") < $mktg-header-weight-threshold) {
           font-weight: $mktg-header-weight-large !important;
         }
@@ -40,9 +42,11 @@
       @include breakpoint(lg) {
         font-size: map-get($pairing-lg, "size") !important;
         line-height: map-get($pairing-lg, "lh") !important;
+
         @if (map-get($pairing-lg, "size") >= $mktg-header-spacing-threshold and map-get($pairing-md, "size") < $mktg-header-spacing-threshold) {
           letter-spacing: $mktg-header-spacing-large !important;
         }
+
         @if (map-get($pairing-lg, "size") >= $mktg-header-weight-threshold and map-get($pairing-md, "size") < $mktg-header-weight-threshold) {
           font-weight: $mktg-header-weight-large !important;
         }
@@ -78,11 +82,13 @@
       @include breakpoint(md) {
         font-size: map-get($pairing-md, "size") !important;
         line-height: map-get($pairing-md, "lh") !important;
+
         @if (map-get($pairing-md, "size") >= $mktg-body-spacing-threshold and map-get($pairing, "size") < $mktg-body-spacing-threshold) {
           letter-spacing: $mktg-body-spacing-large !important;
         }
+
         @if (map-get($pairing-md, "size") >= $mktg-body-weight-threshold and map-get($pairing, "size") < $mktg-body-weight-threshold) {
-          font-weight: $font-weight-semibold;
+          font-weight: $font-weight-medium;
         }
       }
     }
@@ -91,15 +97,21 @@
       @include breakpoint(lg) {
         font-size: map-get($pairing-lg, "size") !important;
         line-height: map-get($pairing-lg, "lh") !important;
+
         @if (map-get($pairing-lg, "size") >= $mktg-body-spacing-threshold and map-get($pairing-md, "size") < $mktg-body-spacing-threshold) {
           letter-spacing: $mktg-body-spacing-large !important;
         }
+
         @if (map-get($pairing-lg, "size") >= $mktg-body-weight-threshold and map-get($pairing-md, "size") < $mktg-body-weight-threshold) {
-          font-weight: $font-weight-semibold;
+          font-weight: $font-weight-medium;
         }
       }
     }
   }
+}
+
+.text-medium {
+  font-weight: $font-weight-medium !important;
 }
 
 // Pullquote

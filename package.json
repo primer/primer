@@ -36,7 +36,7 @@
     "@changesets/changelog-github": "0.4.0",
     "@changesets/cli": "2.16.0",
     "@github/prettier-config": "0.0.4",
-    "autoprefixer": "10.2.6",
+    "autoprefixer": "10.3.0",
     "cssstats": "4.0.2",
     "eslint": "7.29.0",
     "eslint-plugin-github": "4.1.3",
